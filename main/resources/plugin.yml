@@ -1,0 +1,13 @@
+name: Terremoto
+main: me.ninzinhu.terremoto.TerremotoPlugin
+version: "1.0"
+api-version: 1.19
+commands:
+  terremoto:
+    description: Inicia o evento de terremoto e reinicia o servidor após 5 minutos.
+    usage: /terremoto
+    permission: terremoto.use
+permissions:
+  terremoto.use:
+    description: Permite usar o comando /terremoto
+    default: op
